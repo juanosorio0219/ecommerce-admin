@@ -1,0 +1,45 @@
+# Dependency directories
+node_modules/
+
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build files
+/build
+
+# Coverage directory
+/coverage/
+
+# .DS_Store files
+.DS_Store
+
+# Jest snapshot directory
+__snapshots__/
+
+# Yarn lock file
+yarn.lock
+
+# npm lock file
+package-lock.json
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+node_modules
