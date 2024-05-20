@@ -116,11 +116,7 @@ EXIT;
 12. Agregar la bd al .env del proyecto
     
 ```plaintext
-DB_HOST=localhost
-DB_PORT=3306
-DB_USER=nombre_de_usuario
-DB_PASSWORD=contraseña
-DB_DATABASE=nombre_de_base_de_datos
+DATABASE_URL="mysql://usuario:contraseña@localhost:3306/nombre_de_base_de_datos"
 ```
 
 ## Conectar la bd, y usar Prisma para inicializar las tablas
